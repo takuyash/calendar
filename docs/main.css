@@ -1,0 +1,46 @@
+.datebox {
+	background-color: #fff;
+	border-top: solid 2px #bbb;
+	border-right: solid 3px #999;
+	border-bottom: solid 4px #999;
+	border-left: solid 2px #bbb;
+	color: #100;
+	font-family: georgia, arial, verdana, "trebuchet ms", sans-serif;
+	font-size: 12px;
+	letter-spacing: 1px;
+	padding: 0px;
+	text-align: center;
+	width: 80%;
+	height: 580px;
+	margin: 0 auto;
+	margin-top:30px;
+}
+span.title {
+	border-top: solid 40px #a60000;
+	display: block;
+	font-size: 80px;
+	margin: 0;
+	padding: 5px 5px 0px;
+}
+span.day {
+	border-bottom: solid 5px #bbb;
+	display: block;
+	font-size: 200px;
+	margin: 0 5px;
+	padding: 0;
+}
+span.today {
+	display: block;
+	margin: 3px 5px;
+	font-size: 80px;
+	padding: 0;
+}
+@media screen and (min-width: 768px) and ( max-width: 1024px) {
+	span.title {
+		font-size: 60px;
+	}
+	.datebox {
+	    width: 90%;
+    }
+}
+
